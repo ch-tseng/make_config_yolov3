@@ -8,12 +8,12 @@ from os.path import basename
 #from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 
 #--------------------------------------------------------------------
-xmlFolder = "H:/Datasets/cat_face/labels"
-imgFolder = "H:/Datasets/cat_face/images"
+xmlFolder = "H:/Datasets/Weight_Vegetables/labels"
+imgFolder = "H:/Datasets/Weight_Vegetables/images"
 #negFolder = "/home/chtseng/datasets/12_hand_gestures/negatives"
 negFolder = ""
-saveYoloPath = "H:/Datasets/cat_face/yolo"
-classList = { "catface":0 }
+saveYoloPath = "H:/Datasets/Weight_Vegetables/yolo"
+classList = { "v1":0, "v2":1, "v3":2, "v4":3, "v5":4, "V6":5, "v7":6, "v8":7, "v20":8, "v21":9, "v22":10, "v23":11 }
 
 #---------------------------------------------------------------------
 
