@@ -2,10 +2,10 @@ import os
 
 #-------------------------------------------------------------
 #Same with you defined in 1_labels_to_yolo_format.py
-classList = { "v1":0, "v2":1, "v3":2, "v4":3, "v5":4, "V6":5, "v7":6, "v8":7, "v20":8, "v21":9, "v22":10, "v23":11 }
-cfgFolder = "H:/Datasets/Weight_Vegetables/yolo_config"
-colab_yolo_path = "/mydrive/space_Colab/dataset/Weight_Vegetables/yolo/"
-colab_config_path = "/mydrive/space_Colab/dataset/Weight_Vegetables/yolo_config/"
+classList = { "mask":0 }
+cfgFolder = "/home/pi/training/mask_dataset/yolo_config"
+colab_yolo_path = "/mydrive/space_Colab/training/yolo/"
+colab_config_path = "/mydrive/space_Colab/training/yolo_config/"
 
 #-------------------------------------------------------------
 cfg_obj_names = "obj.names"

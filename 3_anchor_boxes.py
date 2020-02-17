@@ -1,7 +1,14 @@
 # -*- coding=utf-8 -*-
-# ex:
-# python 3_anchor_boxes.py -filelist H:/Datasets/cat_face/img_list.txt -num 6 -output_dir H:/Datasets/cat_face/ -yolo_version yolov3 -yolo_input_shape 416
+'''
+example:
+python 3_anchor_boxes.py \
+    -filelist /home/pi/training/mask_dataset/img_list.txt \
+    -num 6 \
+    -output_dir /home/pi/training/mask_dataset/ \
+    -yolo_version yolov3 \
+    -yolo_input_shape 416
 
+'''
 from os import listdir
 from os.path import isfile, join
 import argparse

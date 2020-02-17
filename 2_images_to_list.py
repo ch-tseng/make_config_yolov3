@@ -3,8 +3,8 @@ import glob, os, sys
 import os.path
 
 #---------------------------------------------------------
-saveYoloPath = "H:/Datasets/Weight_Vegetables/yolo"
-output_folder = "H:/Datasets/Weight_Vegetables/"
+saveYoloPath = "/home/pi/training/mask_dataset/yolo"
+output_folder = "/home/pi/training/mask_dataset/"
 #--------------------------------------------------------
 
 fileList = []

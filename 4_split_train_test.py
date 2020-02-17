@@ -4,9 +4,9 @@ import os.path
 
 #---------------------------------------------------------
 testRatio = 0.2
-imageFolder = "H:/Datasets/Weight_Vegetables/yolo"
-cfgFolder = "H:/Datasets/Weight_Vegetables/yolo_config"
-colab_yolo_path = "/mydrive/space_Colab/dataset/Weight_Vegetables/yolo/"
+imageFolder = "/home/pi/training/mask_dataset/yolo"
+cfgFolder = "/home/pi/training/mask_dataset/yolo_config"
+colab_yolo_path = "/mydrive/space_Colab/training/yolo/"
 #--------------------------------------------------------
 
 fileList = []
