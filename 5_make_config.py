@@ -3,7 +3,7 @@ import os
 #-------------------------------------------------------------
 #Same with you defined in 1_labels_to_yolo_format.py
 classList = { "mask":0 }
-cfgFolder = "/home/pi/training/mask_dataset/yolo_config"
+cfgFolder = "/home/pi/training/mask/yolo_config"
 colab_yolo_path = "/mydrive/space_Colab/training/yolo/"
 colab_config_path = "/mydrive/space_Colab/training/yolo_config/"
 

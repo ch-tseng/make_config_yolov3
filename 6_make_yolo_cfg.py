@@ -2,7 +2,7 @@ import os
 
 yolo_version = "yolov3-tiny"  #yolov3, yolov3-tiny
 classList = { "mask":0 }
-cfgFolder = "/home/pi/training/mask_dataset/yolo_config"
+cfgFolder = "/home/pi/training/mask/yolo_config"
 numBatch = 32
 numSubdivision = 8
 anchors = "27,33, 37,47, 53,68, 82,93, 134,126"

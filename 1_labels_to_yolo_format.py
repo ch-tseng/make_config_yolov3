@@ -8,10 +8,11 @@ from os.path import basename
 #from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 
 #--------------------------------------------------------------------
-imgFolder = "/home/pi/training/mask_dataset/images"
-xmlFolder = "/home/pi/training/mask_dataset/labels"
+xmlFolder = "/home/pi/training/mask/labels"
+imgFolder = "/home/pi/training/mask/images"
+#negFolder = "/home/chtseng/datasets/12_hand_gestures/negatives"
 negFolder = ""
-saveYoloPath = "/home/pi/training/mask_dataset/yolo"
+saveYoloPath = "/home/pi/training/mask/yolo"
 classList = { "mask":0 }
 
 #---------------------------------------------------------------------

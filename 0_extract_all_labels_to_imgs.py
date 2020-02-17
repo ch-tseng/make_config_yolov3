@@ -9,10 +9,14 @@ import numpy as np
 from xml.dom import minidom
 
 #-------------------------------------------
+#extract_to = "H:/Datasets/Weight_Vegetables/extract"
+#imgFolder = "H:/Datasets/Weight_Vegetables/images"
+#xmlFolder = "H:/Datasets/Weight_Vegetables/labels"
+extract_to = "/home/pi/training/mask/extract"
+imgFolder = "/home/pi/training/mask/images"
+xmlFolder = "/home/pi/training/mask/labels"
 
-extract_to = "/home/pi/training/mask_dataset/extract"
-imgFolder = "/home/pi/training/mask_dataset/images"
-xmlFolder = "/home/pi/training/mask_dataset/labels"
+
 resize_to = None  #(32, 32)
 
 #folderCharacter = "/"  # \\ is for windows

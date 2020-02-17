@@ -1,13 +1,16 @@
 # -*- coding=utf-8 -*-
 '''
-example:
-python 3_anchor_boxes.py \
-    -filelist /home/pi/training/mask_dataset/img_list.txt \
-    -num 6 \
-    -output_dir /home/pi/training/mask_dataset/ \
-    -yolo_version yolov3 \
-    -yolo_input_shape 416
+ex:
+python 3_anchor_boxes.py -filelist /home/pi/training/mask/img_list.txt -num 6 -output_dir /home/pi/training/ -yolo_version yolov3 -yolo_input_shape 416
 
+[ 26.77749662  32.89498327]
+ [ 37.14869548  47.31900395]
+ [ 53.31877894  68.43628395]
+ [ 81.59119659  92.60119334]
+ [134.18030778 125.54473603]]
+
+-->
+27,33, 37,47, 53,68, 82,93, 134,126
 '''
 from os import listdir
 from os.path import isfile, join

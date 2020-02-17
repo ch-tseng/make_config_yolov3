@@ -4,8 +4,8 @@ import os.path
 
 #---------------------------------------------------------
 testRatio = 0.2
-imageFolder = "/home/pi/training/mask_dataset/yolo"
-cfgFolder = "/home/pi/training/mask_dataset/yolo_config"
+saveYoloPath = "/home/pi/training/mask/yolo"
+cfgFolder = "/home/pi/training/mask/yolo_config"
 colab_yolo_path = "/mydrive/space_Colab/training/yolo/"
 #--------------------------------------------------------
 
@@ -19,12 +19,12 @@ output_colabTestFile = os.path.join(cfgFolder ,"test_colab.txt")
 if not os.path.exists(cfgFolder):
     os.makedirs(cfgFolder)
 
-for file in os.listdir(imageFolder):
+for file in os.listdir(saveYoloPath):
     filename, file_extension = os.path.splitext(file)
     file_extension = file_extension.lower()
 
     if(file_extension == ".jpg" or file_extension==".jpeg" or file_extension==".png" or file_extension==".bmp"):
-        fileList.append(os.path.join(imageFolder, file))
+        fileList.append(os.path.join(saveYoloPath, file))
         fileList_colab.append(colab_yolo_path+file)
 
 print("total image files: ", len(fileList))
